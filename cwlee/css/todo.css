@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'JoseonGulim';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGu.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #921416;
+}
+
+main {
+    font-family: 'JoseonGulim';
+    background-color: white;
+    width: 80%;
+    max-width: 450px;
+    height: 80vh;
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 50px;
+    overflow: auto;
+
+}
+
+h2 {
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4B878B;
+}
+
+input {
+    width: 70%;
+    height: 8%;
+    min-height: 20px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #4B878B;
+}
+
+button {
+    width: 20%;
+    height: 8%;
+    min-height: 20px;
+    color: white;
+    background-color: #4B878B;
+    border: 1px solid #4B878B;
+    border-radius: 10px;
+}
+
+ul {
+    margin-top: 20px;
+    color: #4B878B;
+    list-style: none;
+}
+
+li {
+    padding: 15px;
+    border-bottom: 1px solid #4B878B;
+}
+
+li span {
+    padding: 0 15px;
+}
+
+input[type="checkbox"] {
+    padding: 8px;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #4B878B;
+    border-radius: 50%;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #4B878B;
+}
+
+@media (max-width:767px) {
+    body {
+        background-color: #CBCE91;
+    }
+
+    h2 {
+        color: #d3687f;
+    }
+
+    input {
+        border: 1px solid #d3687f;
+    }
+
+    button {
+        background-color: #d3687f;
+        border: 1px solid #d3687f;
+    }
+
+    ul {
+        color: #d3687f;
+    }
+
+    li {
+        font-size: 80%;
+        border-bottom: 1px solid #d3687f;
+    }
+
+    input[type="checkbox"] {
+        border: 1px solid #d3687f;
+    }
+
+    input[type="checkbox"]:checked {
+        background-color: #d3687f;
+    }
+}
