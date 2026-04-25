@@ -22,6 +22,7 @@ main {
     background-color: white;
     width: 80%;
     max-width: 450px;
+    max-height: 600px;
     height: 80vh;
     margin: 50px auto;
     box-sizing: border-box;
@@ -41,7 +42,8 @@ h2 {
 input {
     width: 70%;
     height: 8%;
-    min-height: 20px;
+    min-height: 30px;
+    max-height: 60px;
     box-sizing: border-box;
     padding: 5px 10px;
     border-radius: 10px;
@@ -51,7 +53,8 @@ input {
 button {
     width: 20%;
     height: 8%;
-    min-height: 20px;
+    min-height: 30px;
+    max-height: 60px;
     color: white;
     background-color: #4B878B;
     border: 1px solid #4B878B;
