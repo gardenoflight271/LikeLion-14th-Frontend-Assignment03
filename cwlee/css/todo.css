@@ -17,7 +17,7 @@ body {
     background-color: #921416;
 }
 
-main {
+#container {
     font-family: 'JoseonGulim';
     background-color: white;
     width: 80%;
@@ -39,11 +39,19 @@ h2 {
     color: #4B878B;
 }
 
-input {
-    width: 70%;
+#inputArea {
+    display: flex;
     height: 8%;
     min-height: 30px;
     max-height: 60px;
+    gap: 10px;
+}
+
+input[type="text"] {
+    width: 70%;
+    /* height: 8%;
+    min-height: 30px;
+    max-height: 60px; */
     box-sizing: border-box;
     padding: 5px 10px;
     border-radius: 10px;
@@ -52,9 +60,9 @@ input {
 
 button {
     width: 20%;
-    height: 8%;
+    /* height: 8%;
     min-height: 30px;
-    max-height: 60px;
+    max-height: 60px; */
     color: white;
     background-color: #4B878B;
     border: 1px solid #4B878B;
@@ -77,10 +85,12 @@ li span {
 }
 
 input[type="checkbox"] {
-    padding: 8px;
+    /* padding: 8px; */
     appearance: none;
     width: 14px;
+    /* min-width: 14px; */
     height: 14px;
+    /* min-height: 14px; */
     border: 1px solid #4B878B;
     border-radius: 50%;
 }
